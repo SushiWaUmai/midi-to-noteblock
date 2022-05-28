@@ -1,6 +1,7 @@
 from nbt import nbt
 from block import Block
 
+
 class Region:
     def __init__(self, width, height, length):
         self.width = width
@@ -27,6 +28,16 @@ class Region:
     def getblock(self, x, y, z):
         return Block.get(self.blocks[self.positionToIndex(x, y, z)])
 
+    # PalleteMax TAG_Int
+    # Pallete TAG_Compound
+    #   Blockname TAG_Int index
+    # Version TAG_Int
+    # Length TAG_Short z
+    # Width TAG_Short x
+    # Height TAG_Short y
+    # Metadata TAG_Compound
+    # BlockData TAG_Byte_Array
+
     def as_nbt(self):
         nbt_file = nbt.NBTFile()
         nbt_file["Metadata"] = nbt.TAG_Compound()
@@ -49,4 +60,3 @@ class Region:
         nbt_file["DataVersion"] = nbt.TAG_Int(2975)
 
         return nbt_file
-

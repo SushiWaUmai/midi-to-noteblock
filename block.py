@@ -20,4 +20,3 @@ class Block:
 
     def get(index):
         return Block.blocks[index]
-
