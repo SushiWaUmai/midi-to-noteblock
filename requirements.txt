@@ -1,0 +1,5 @@
+mido==1.2.10
+NBT==1.5.1
+numpy==1.22.4
+pretty-midi==0.2.9
+six==1.16.0
