@@ -1,4 +1,9 @@
 # Midi File to Minecraft Schematic
+
+[![PyPI](https://shields.io/pypi/v/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
+[![PyPI Wheel](https://shields.io/pypi/wheel/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
+[![PyPI License](https://shields.io/pypi/l/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
+
 A CLI to convert midi files into world edit schematic files. 
 
 ## How to use
