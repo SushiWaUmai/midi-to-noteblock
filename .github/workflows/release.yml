@@ -15,6 +15,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
 
+      - name: Install Wheel
+        run: pip3 install wheel
+
       - name: Build Package
         run: python3 setup.py sdist bdist_wheel
 
