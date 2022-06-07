@@ -2,7 +2,7 @@
 
 [![PyPI](https://shields.io/pypi/v/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
 [![PyPI Wheel](https://shields.io/pypi/wheel/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
-[![PyPI License](https://shields.io/pypi/l/midi-to-noteblock?style=flat-square)](https://pypi.org/project/midi-to-noteblock/)
+[![License](https://shields.io/pypi/l/midi-to-noteblock?style=flat-square)](https://github.com/SushiWaUmai/midi-to-noteblock/blob/main/LICENSE)
 
 A CLI to convert midi files into world edit schematic files. 
 
@@ -52,4 +52,4 @@ python main.py -h
 ```
 
 ## License
-This project is licensed under the [MIT license](./LICENSE)
+This project is licensed under the [MIT license](https://github.com/SushiWaUmai/midi-to-noteblock/blob/main/LICENSE)
