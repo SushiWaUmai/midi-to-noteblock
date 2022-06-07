@@ -1,6 +1,6 @@
 import os
 import argparse
-from nbt_gen import generate_schematic
+from midi_to_noteblock import generate_schematic
 
 home_dir = os.path.expanduser("~")
 default_schem_dir = os.path.join(

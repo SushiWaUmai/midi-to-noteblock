@@ -1,5 +1,5 @@
 from nbt import nbt
-from block import Block
+from .block import Block
 
 
 class Region:

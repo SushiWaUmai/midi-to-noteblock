@@ -1,6 +1,6 @@
-from audio_splitter import split_midi
-from region import Region
-from block import Block
+from .audio_splitter import split_midi
+from .region import Region
+from .block import Block
 
 air = Block.create('minecraft:air')
 repeater = Block.create('minecraft:repeater')
