@@ -21,6 +21,9 @@ def main():
     schematic_filename = args.schematic_file
     schematic_dir = args.schematic_dir
 
+    if not os.path.exists(schematic_dir):
+        os.makedirs(schematic_dir)
+
     if not schematic_filename:
         schematic_filename = os.path.basename(midi_file)
         schematic_filename = os.path.splitext(schematic_filename)[0] + ".schem"
